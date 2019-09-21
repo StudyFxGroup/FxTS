@@ -1,6 +1,6 @@
 # Typescript + FxJS of marpple
 
-Typescript와 함수형 오픈소스인 FxJS를 이용한 스터디 그룹입니다.
+> Typescript와 함수형 오픈소스인 FxJS를 이용한 스터디 그룹입니다.
 
 ## 스터디 정보
 > ### 인원
@@ -15,9 +15,9 @@ Typescript와 함수형 오픈소스인 FxJS를 이용한 스터디 그룹입니
 > 10월 초로 예상중이며 조금 더 일찍 시작할 수 있습니다.
 
 ## 사용할 언어
-* Javascript (ECMAScript)
-* Typescript
+> * Javascript (ECMAScript)
+> * Typescript
 
 ## 참고
 
-* FsJS: https://github.com/marpple/FxJS
+> * FsJS: https://github.com/marpple/FxJS
