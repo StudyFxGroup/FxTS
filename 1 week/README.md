@@ -9,7 +9,7 @@
 ```javascript
 // constant 함수
 //
-// 함수, 또는 어떠한 값을 매개변수로 받아 함수로 리턴하는 함수입니다.
+// 상수를 선언하는 함수입니다.
 
 function constant(a) {
   return _ => a;
