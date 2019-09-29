@@ -20,7 +20,7 @@ function constant(a) {
 ```javascript
 // curry 함수
 //
-// 함수, 또는 어떠한 값을 매개변수로 받아 함수로 리턴하는 함수입니다.
+// 함수를 매개변수로 받아 후 클로저 형태로 실행이 되는 함수
 
 function curry(f) {
   return (a, ..._) => _.length ? f(a, ..._) : (..._) => f(a, ..._);
