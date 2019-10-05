@@ -1,7 +1,7 @@
-// function curry<T>(f: void | T) {
-//   return <N, U>(a: N, ..._) => _.length ? f(a, ..._) : (..._) => f(a, ..._);
-// }
+const curry = (fn: Function) => (..._: any) => fn(..._)
 
-// const add = curry((a, b) => a + b);
+const add = curry(
+  (a: number, b: number) => a + b
+)
 
-// add(10, 5); // 15
+console.log(add(1, 2))
