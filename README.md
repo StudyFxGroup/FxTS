@@ -31,13 +31,13 @@
 > 희망자에 한하여 지역을 정하여 진행
 
 ## 스터디 진행
-> 1. [스터디 저장소](https://github.com/StudyFxGroup/FxTS)를 Fork한다. ![이미지 1](./info/img1.png)
+> 1. [스터디 저장소](https://github.com/StudyFxGroup/FxTS)를 Fork한다. ![이미지 1](./public/img1.png)
 > 2. Fork한 개인 저장소로 스터디를 시작한다.
 >     * 각 week폴더에 자신의 닉네임으로 폴더를 생성한다.
 >     * 해당 폴더에서 개발을 하고 commit push를 한다.
 >     * 다른 스터디원의 소스를 분석할 수 있으나 수정은 지양한다.
-> 3. 완료된 소스를 스터디 저장소로 옮기기 위하여 Pull Request을 요청합니다. ![이미지 2](./info/img2.png)
-> 4. 설정을 하고 스터디 저장소로 Pull Request한다. ![예제 이미지 3](./info/img3.png)
+> 3. 완료된 소스를 스터디 저장소로 옮기기 위하여 Pull Request을 요청합니다. ![이미지 2](./public/img2.png)
+> 4. 설정을 하고 스터디 저장소로 Pull Request한다. ![예제 이미지 3](./public/img3.png)
 > 5. 다른 스터디원들과 소스리뷰를 진행한다.
 > 6. 기준 레포에서 문제를 받아오려면 위의 Pull Request 요청을 반대로 진행하시면 됩니다.
 
