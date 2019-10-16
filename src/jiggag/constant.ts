@@ -1,8 +1,8 @@
 // constant 함수
 // 상수를 선언하는 함수입니다.
 
-export const constant = (a: string | number) => {
-  return (_?: typeof globalThis) => a;
+export function constant<T> (a: string | number) {
+  return (_?: T[]) => a;
 };
 
 const constantA = constant('A');

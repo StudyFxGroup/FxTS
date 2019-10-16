@@ -1,3 +1,5 @@
 dist/
 .vscode/
 FxTS.ts
+node_modules
+package-lock.json

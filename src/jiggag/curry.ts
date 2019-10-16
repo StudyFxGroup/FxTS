@@ -3,12 +3,12 @@
 
 import { constant } from './constant';
 
-export const curry: Function = (f: Function): Function => {
-  return (a: typeof constant, ..._): Function => {
+export function curry<T> (f: Function): Function {
+  return (a: typeof constant, ..._: T[]) => {
     return _.length ? (
       f(a, ..._)
     ) : (
-      (..._) => f(a, ..._)
+      (..._: T[]) => f(a, ..._)
     ); 
   };
 };
