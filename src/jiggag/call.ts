@@ -18,7 +18,7 @@ console.log(curry(add)(7)(29));  // 36
 /**
  * const call = (fn, ...args) => fn(...args);
  *    함수(fn)와 인자(...args)를 받아서 함수에 인자를 전달하여 fn(...args) 실행
- *    함수(fn)의 필요 인자보다 부족한 인자를 (...args) 전달한 경우 실행 안됨
+ *    함수(fn)의 필요 인자보다 부족한 인자를 (...args) 전달한 경우 해당 인자를 Undefined로 처리하여 함수가 실행됨
  * 
  * const curry = fn => ...args => fn(...args)
  *    함수(fn)과 인자(...args)를 받아서 각각의 인자를 1개씩 넘겨주는 함수를 생성
@@ -30,3 +30,9 @@ console.log(curry(add)(1)(2));  // 3
 
 console.log(call(add, 7));  // NaN
 console.log(call(add, 7, 2));  // 9
+
+function log(a, b) {
+  return console.log(a, b);
+}
+call(log, 1, 2);  // 1, 2
+call(log, 1); // 1, undefined
