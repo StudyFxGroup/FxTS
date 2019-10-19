@@ -1,5 +1,5 @@
-import { curry } from '../../FxTS';
+import curry from './curry';
 
-export const add = curry(
+export default curry(
   (a: number, b: number) => a + b
 );
