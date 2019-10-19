@@ -1,5 +1,5 @@
-import { curry } from '../../FxTS';
+import curry from './curry';
 
-export const call = curry(
-  (fn: Function, ..._: any) => fn(..._)
+export default curry(
+  (fn: Function, ..._: any[]) => fn(..._)
 );
