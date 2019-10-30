@@ -11,4 +11,4 @@ export function curry<T> (f: Function): Function {
       (..._: T[]) => f(a, ..._)
     ); 
   };
-};
+}

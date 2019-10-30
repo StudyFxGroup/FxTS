@@ -1,9 +1,9 @@
 // constant 함수
 // 상수를 선언하는 함수입니다.
 
-export function constant<T> (a: string | number) {
+export function constant<T> (a: T) {
   return (_?: T[]) => a;
-};
+}
 
 const constantA = constant('A');
 const constantNum = constant(1);
