@@ -6,7 +6,7 @@ import { add } from './add';
 
 function call<T> (f: Function, ...args: T[]): Function {
   return f(...args);
-};
+}
 
 console.log(call(add, 2, 5)); // 7
 
@@ -31,7 +31,7 @@ console.log(curry(add)(1)(2));  // 3
 console.log(call(add, 7));  // NaN
 console.log(call(add, 7, 2));  // 9
 
-function log(a, b) {
+function log<T>(a: T, b: T) {
   return console.log(a, b);
 }
 call(log, 1, 2);  // 1, 2
