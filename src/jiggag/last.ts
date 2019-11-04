@@ -1,4 +1,7 @@
 // last 함수: 배열의 마지막 값
+/**
+ * @param {Array} arr 마지막값을 찾을 배열
+ */
 export default function last<T> (arr: Array<T>) {
   return arr[arr.length - 1];
 }
