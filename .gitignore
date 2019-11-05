@@ -1,3 +1,8 @@
 dist/
 .vscode/
 FxTS.ts
+node_modules
+package-lock.json
+
+*/jiggag/*.js
+*/jiggag/*.md
